@@ -14,10 +14,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Shop />} />
-          <Route path="/cpu" element={<ShopCategory category="cpu" />} />
-          <Route path="/ram" element={<ShopCategory category="ram" />} />
-          <Route path="/gpu" element={<ShopCategory category="gpu" />} />
-          <Route path="path" element={<Product />}>
+          <Route path="/cpu" element={<ShopCategory category="CPU" />} />
+          <Route path="/ram" element={<ShopCategory category="RAM" />} />
+          <Route path="/gpu" element={<ShopCategory category="GPU" />} />
+          <Route path="/product" element={<Product />}>
             <Route path=":productID" element={<Product />} />
           </Route>
           <Route path="/cart" element={<Cart />} />
