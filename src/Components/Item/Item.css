@@ -1,6 +1,11 @@
 .item {
   width: 350px;
 }
+.item img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
 .item p {
   margin: 6px 0px;
 }
